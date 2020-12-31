@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Text styles */
+    text-align: center;
+
+    /* Background */
+    background-image: url("images/deskbackground.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1{
+    font-size: 5em;
+    margin-top: top;
+    margin-bottom: 0.5em;
+}
+
+.hero .btn{
+    display: block;
+    width: 200px;
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.navbar{
+    min-height: 80px;
+}
+
+nav .navbar-brand{
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.info-page{
+    width: 100vw;
+    height: 90vh;
+    background-color:   #f2f2f2;
+}
+
+
+.info-image{
+    width: 40vw;
+    height: 20vh;
+    float: right;
+    padding: 100px 100px 0px 0px;
+}
+
+.info-text{
+    float: left;
+    padding: 150px 0px 0px 100px;
+}
+
+.info-text p{
+    font-size: 18px;
+}
+
+.info-text h3{
+    font-size: 5em;
+}
+
+.skills-page{
+    width: 100vw;
+    height: 90vh;
+    background-color: gray;
+}
+
+.skills-image{
+    width: 40vw;
+    height: 10vh;
+    float: left;
+    padding: 100px 0px 0px 100px;
+}
+
+.skills-text{
+    float: right;
+    padding: 150px 100px 0px 0px;
+}
+
+.skills-text h3{
+    font-size: 5em;
+}
+
+.skills-text p{
+    font-size: 18px;
+}
+
+.contact-page{
+    width: 100vw;
+    height: 90vh;
+    background-color: bisque;
+}
+
+
+.form-container {
+    width: 300px;
+    clear: both;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.form-container input {
+    width: 100%;
+    clear: both;
+}
+
+#message{
+    max-width:  36em;
+    resize: vertical;
+}
+
+
+
+

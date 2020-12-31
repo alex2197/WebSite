@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Personal Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="nav-container">
+            <nav class="nav fixed-top navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <section class="hero">
+            <div class="hero-inner">
+                <h1>Alejandro Sanchez</h1>
+                <h2>Coding</h2>
+                <a href="#" class="btn">Go ahead</a>
+            </div>
+        </section>
+
+        <section class="info-page">
+                <div class="info-text">
+                    <h3>Info</h3>
+                    <br><br>
+                    <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta odio quod<br> 
+                        tenetureveniet iure vero perferendis dolores similiquequae laborum enim modi<br>
+                        adipisci ipsam, quos accusamus in assumenda doloremque delectus sintpraesentium<br>
+                        tempore ad ab.<br>
+                        Obcaecati suscipit rem quidem quo in consequatur libero ab debitis<br>
+                        autem, aperiam omnis excepturi<br>
+                        mollitia!</h5>
+                </div>
+                <div class="info-image">
+                    <img src="images/coding2.jpeg" class="img-fluid rounded flotat-right" alt="Responsive image">
+                </div>
+        </section>
+
+        <section class="skills-page">
+            <div class="skills-text">
+                <h3>Skills</h3>
+                <br><br>
+                <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta odio quod<br> 
+                    tenetureveniet iure vero perferendis dolores similiquequae laborum enim modi<br>
+                    adipisci ipsam, quos accusamus in assumenda doloremque delectus sintpraesentium<br>
+                    tempore ad ab.<br>
+                    Obcaecati suscipit rem quidem quo in consequatur libero ab debitis<br>
+                    autem, aperiam omnis excepturi<br>
+                    mollitia!</h5>
+            </div>
+            <div class="skills-image">
+                <img src="images/desk.jpg" class="img-fluid rounded flotat-right" alt="Responsive image">
+            </div>
+        </section>
+
+        <section class="contact-page">
+            <div class="form-container">
+                <form action="server.js" id="contact-form" method="POST">
+                    <label>First Name:</label>
+                    <input type="text" id="firstName" class="form-control" name="first_name">
+                    <label>Last Name:</label>
+                    <input type="text" class="form-control" id="lastName" name="last_name">
+                    <label>Email:</label>
+                    <input type="text" class="form-control mb-3" id="Email" nam="email">
+                    <div class="message">
+                        <textarea name="message" id="message" cols="60" rows="10"></textarea>
+                    </div>
+                    <input type="Submit" value="Enviar" class="btn btn-primary mt-3">
+                </form>
+            </div>
+        </section>
+
+        <script src="index.js"></script>
+    </body>
+</html>
